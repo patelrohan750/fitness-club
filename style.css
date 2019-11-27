@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav .fa-bars{
+    font-size: 25px;
+    color: white;
+}
+#header{
+    background-image: url('images/headerimg.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar-nav li a{
+    float: right;
+    color :white!important;
+}
+.navbar-brand img{
+    height: 100px;
+    width:150px;
+}
+/*----------------------------------welcome section-----------------------------------------------------------*/
+.default-btn{
+  background-color:#013f7e!important;
+  color:white!important;
+  border-radius: 30px!important;
+  margin-top: 5px;
+}
+.welcome{
+    background-color: white;
+    padding: 50px 100px;
+    box-shadow: 0 0 20px 7px rgba(0, 0,0,0.2);
+    margin-top: -140px;
+}
+.welcome h1{
+    padding-bottom: 10px;
+}
+/*---------------------------------------features section---------------------------------------------------------*/
+#features{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+#features .col-md-6 h3{
+    padding:10px 0px;
+}
+
+/*-------------------------------------------services section--------------------------------------------------*/
+#services{
+    background-color: #e2e2e2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4 img{
+    height: 50px;
+    width: 50px;
+    text-align: justify;
+}
+#services .col-md-4 p{
+    text-align: justify;
+}
+#services .col-md-4 h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*----------------------------------feature1 section--------------------------------------------------------------*/
+#features1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/bgimg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#features1 .col-md-6 img{
+height:400px;
+width:400px;
+}
+.box .leftside{
+    float:left;
+    width:20%;
+    padding-bottom:15px;
+}
+.box .leftside .fa{
+    font-size: 50px;
+}
+.box .rightside{
+    padding-bottom:15px;
+    width: 80%;
+     float: left;
+     text-align: justify;
+
+}
+/*----------------------------------------------review section___________________________________________*/
+#review{
+    margin-top: 100px;
+}
+#review h2{
+    color:#013f7e;
+    padding: 10px 0px;
+}
+#review .row{
+    margin-top: 100px;
+}
+#review .col-md-4 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+#review .col-md-4 .fa-twitter,#review .col-md-4 span{
+    color:#013f7e;
+}
+#review .review{
+    box-shadow: 0 0 20px 1px rgba(0, 0,0,0.2);
+    border-radius: 10px;
+    text-align: justify;
+   font-size: 16px;
+   padding: 10px 10px 10px 30px;
+}
+.second{
+    margin-top: -40px;
+}
+/*------------------------------------------------join us section__________________________________*/
+.subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0,0,0.2);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -160px;
+} 
+.form-group input{
+    border-radius: 30px!important;
+    max-width: 500px;
+    margin-left: 300px;
+    
+}
+.form-group button{
+    background-image: linear-gradient(to right,#1c03b5,#5c8bef);
+    border-radius: 30px!important;
+   
+}
+/*-----------------------------------contact us section-------------------------------------------------------------*/
+#conatctus{
+    background-color:  #e2e2e2;
+    padding-top: 200px;
+}
+#conatctus .col-md-3 p .fa{
+    color:#013f7e;
+    padding-left:20px;
+    padding-right: 20px;
+}
+#conatctus .col-md-3 .city{
+   padding-left: 55px;
+}
+#conatctus h4 .fa-heart-o{
+    color: red;
+    transition: .3s;
+}
+#conatctus h4 .fa-heart-o:hover{
+    transform: scale(1.2);
+}
